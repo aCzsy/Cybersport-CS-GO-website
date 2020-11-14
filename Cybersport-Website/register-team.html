@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Team</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <section class="top-section">
+      <section class="social-and-btns">
+        <section class="social-and-btns-content">
+          <ul class="social-links">
+            <li><a class="links" href="#"><i class="fa fa-rss"></i></a></li>
+            <li><a class="links" href="#"><i class="fab fa-twitch"></i></a></li>
+            <li><a class="links" href="#"><i class="fab fa-reddit"></i></a></li>
+            <li><a class="links" href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="links" href="#"><i class="fab fa-google-plus"></i></a></li>
+            <li><a class="links" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="links" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+          </ul>
+          <div class="login-signup">
+            <a href="register-team.html"><button type="button" class="top-section-btns signup-btn">REGISTER</button></a>
+          </div>
+        </section>
+      </section>
+      <nav class="main-nav">
+        <section id="nav-content">
+          <a href="#"><img src="images/nav-icon.png" alt=""></a>
+          <div class="logo-text">
+            <span><span class="logo-edit">P</span>RO<span class="logo-edit">G</span>AMES</span>
+            <span id="smaller-logo-text">GAMING PORTAL</span>
+          </div>
+          <ul class="main-ul">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="live.html">LIVE STREAM</a></li>
+            <li class="sub-menu"><a href="#"  class="active">TOURNAMENTS <span style="font-size:1.3em;">+</span></a>
+              <ul>
+                <li><a href="register-team.html"  class="active">REGISTER TEAM</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="top-teams.html">TOP TEAMS</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu"><a href="#">ABOUT<span style="font-size:1.3em;"> +</span></a>
+              <ul>
+                <li><a href="about-csgo.html">ABOUT CS:GO</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+              </ul>
+            </li>
+            <li><a href="contact-us.html">CONTACT US</a></li>
+          </ul>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </section>
+      </nav>
+      <nav class="mobile-nav">
+        <ul class="mobile-nav-ul">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="live.html">LIVE STREAM</a></li>
+          <li class="sub-menu"><a href="#"  class="active">TOURNAMENTS <span style="font-size:1.3em;">+</span></a>
+            <ul>
+              <li><a href="register-team.html"  class="active">REGISTER TEAM</a></li>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <li><a href="top-teams.html">TOP TEAMS</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu"><a href="#">ABOUT<span style="font-size:1.3em;"> +</span></a>
+            <ul>
+              <li><a href="about-csgo.html">ABOUT CS:GO</a></li>
+              <li><a href="about-us.html">ABOUT US</a></li>
+            </ul>
+          </li>
+          <li><a href="contact-us.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="sub-heading center">
+        <h2 class="section-separate live-stream-heading"><span><span class="section-separate-text">REGISTER</span>YOUR TEAM</span></h2>
+      </div>
+      <section class="form-container">
+        <form>
+        <ul class="flex-outer">
+        <li>
+          <label for="team-name">Team Name</label>
+          <input type="text" id="first-name" placeholder="Enter team name" required>
+        </li>
+        <li>
+          <label for="team-members">Team Members</label>
+          <input type="text" id="last-name" placeholder="Enter nicknames of your team members" required>
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email here" required>
+        </li>
+        <li>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="Enter your phone here">
+        </li>
+        <li>
+          <label for="message">Message</label>
+          <textarea rows="6" id="message" placeholder="Enter any additional information"></textarea>
+        </li>
+        <li>
+        <label for="event-dates">Select tournament date</label>
+          <select id="event-dates" name="event-dates">
+            <option value="may">May 18, 2019</option>
+            <option value="june">June 10, 2019</option>
+            <option value="june">June 27, 2019</option>
+            <option value="july">July 3, 2019</option>
+            <option value="july">July 23, 2019</option>
+            <option value="august">August 7, 2019</option>
+            <option value="august">August 15, 2019</option>
+            <option value="august">August 26, 2019</option>
+        </select>
+        </li>
+        <li>
+        <label for="country">Country</label>
+          <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="russian">Russia</option>
+          <option value="Asia">Asia</option>
+          <option value="usa">USA</option>
+          <option value="ireland">Ireland</option>
+          <option value="northern ireland">Northern Ireland</option>
+          <option value="england">England</option>
+        </select>
+        </li>
+        <li>
+        <p>Age</p>
+        <ul class="flex-inner">
+          <li>
+            <input type="checkbox" id="twenty-to-twentynine">
+            <label for="twenty-to-twentynine">20-29</label>
+          </li>
+          <li>
+            <input type="checkbox" id="thirty-to-thirtynine">
+            <label for="thirty-to-thirtynine">30-39</label>
+          </li>
+          <li>
+            <input type="checkbox" id="fourty-to-fourtynine">
+            <label for="fourty-to-fourtynine">40-49</label>
+          </li>
+          <li>
+            <input type="checkbox" id="other">
+            <label for="other">Other</label>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <button type="submit">Submit</button>
+      </li>
+      </ul>
+      </form>
+    </section>
+    </section>
+    <footer>
+        <div class="footer-text">
+          <h3>Join the battle and challenge the best teams!</h3>
+          <hr>
+        </div>
+        <section class="footer-phone-email">
+            <h2>Contact us:</h2>
+            <p>Tel:+35302140234214</p>
+            <p>contact@progames.com</p>
+        </section>
+          <i class="fas fa-globe"></i>
+        <section class="footer-links">
+          <ul class="footer-social-links">
+            <li><a class="footer-links" href="#"><i class="fas fa-rss-square"></i></a></li>
+            <li><a class="footer-links" href="#"><i class="fab fa-discord"></i></a></li>
+            <li><a class="footer-links" href="#"><i class="fab fa-reddit-square"></i></a></li>
+            <li><a class="footer-links" href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="footer-links" href="#"><i class="fab fa-steam-square  steam-edit"></i></a></li>
+          </ul>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
